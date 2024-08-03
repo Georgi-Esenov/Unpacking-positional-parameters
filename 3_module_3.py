@@ -1,5 +1,5 @@
 def print_params(a=1, b='строка', c=True, *params):
-    print(a, b, c, )
+    print(a, b, c )
 
 
 print('--------------------------1 пункт-------------------------')
