@@ -11,6 +11,7 @@ print('---------------2 пункт---------------------')
 values_list = [1, 'streight', True, [1, 2, 3], (1, 2, 3)]
 values_dict = {'a': 1, 'b': 'строка', 'c': True}
 print_params(*values_list)
+print_params(**values_dict)
 
 print('-----------------------3 пункт-------------------------')
 values_list_2 = [54.32, 'Строка']
